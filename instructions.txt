@@ -1,5 +1,11 @@
 first:
 npm install
 
-to run:
+to run: (dev)
 npm run web
+
+to build: (production)
+npx expo export -p web
+npx serve dist -s
+
+

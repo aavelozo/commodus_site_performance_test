@@ -1,4 +1,4 @@
-import { FormControlLabel, Grid2, Switch, input, useTheme } from '@mui/material';
+import { FormControlLabel, Grid2, Switch, TextField, useTheme } from '@mui/material';
 import { useReducer, useState } from 'react';
 import { ScrollView } from 'react-native';
 
@@ -43,84 +43,84 @@ export default function UseReducer() {
     <ScrollView>
       <Grid2 container>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test1"
             value={state.test1}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test1:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test2"
             value={state.test2}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test2:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test3"
             value={state.test3}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test3:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test4"
             value={state.test4}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test4:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test5"
             value={state.test5}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test5:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test6"
             value={state.test6}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test6:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test7"
             value={state.test7}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test7:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test8"
             value={state.test8}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test8:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test9"
             value={state.test9}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test9:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test10"
             value={state.test10}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test10:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test11"
             value={state.test11}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test11:e.target.value}})}
           />
         </Grid2>
         <Grid2 size={{xs:12, md:4}}>
-          <input 
+          <TextField 
             label="test12"
             value={state.test12}
             onChange={(e)=>dispatch({type:'SET_DATA',payload:{test12:e.target.value}})}
