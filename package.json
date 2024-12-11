@@ -15,8 +15,14 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@expo/vector-icons": "^14.0.2",
+    "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.10",
+    "@mui/material": "^6.1.10",
     "@react-navigation/bottom-tabs": "^7.0.0",
+    "@react-navigation/drawer": "^7.0.19",
     "@react-navigation/native": "^7.0.0",
     "expo": "~52.0.17",
     "expo-blur": "~14.0.1",
