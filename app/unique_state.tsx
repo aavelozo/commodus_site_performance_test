@@ -11,19 +11,7 @@ export default function UniqueState() {
     test3:'',
     test4:'',
     test5:'',
-    test6:'',
-    test7:'',
-    test8:'',
-    test9:'',
-    test10:'',
-    test11:'',
-    test12:'',
-    test13:false,
-    test14:false,
-    test15:false,
-    test16:false,
-    test17:false,
-    test18:false,
+    test6:''
   });
 
   const handleChange = (e,field,boolean) =>
@@ -74,109 +62,7 @@ export default function UniqueState() {
             value={data.test6}
             onChange={(e)=>handleChange(e,"test6")}
           />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test7"
-            value={data.test7}
-            onChange={(e)=>handleChange(e,"test7")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test8"
-            value={data.test8}
-            onChange={(e)=>handleChange(e,"test8")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test9"
-            value={data.test9}
-            onChange={(e)=>handleChange(e,"test9")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test10"
-            value={data.test10}
-            onChange={(e)=>handleChange(e,"test10")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test11"
-            value={data.test11}
-            onChange={(e)=>handleChange(e,"test11")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <TextField 
-            label="test12"
-            value={data.test12}
-            onChange={(e)=>handleChange(e,"test12")}
-          />
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test13}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test13",true)}
-            />} 
-            label="test13"
-          /> 
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test14}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test14",true)}
-            />} 
-            label="test14"
-          /> 
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test15}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test15",true)}
-            />} 
-            label="test15"
-          /> 
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test16}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test16",true)}
-            />} 
-            label="test16"
-          /> 
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test17}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test17",true)}
-            />} 
-            label="test17"
-          /> 
-        </Grid2>
-        <Grid2 size={{xs:12, md:4}}>
-          <FormControlLabel 
-            control={<Switch
-                value={data.test18}
-                //defaultValue={showSubInvisibles}
-                onChange={(e)=>handleChange(e,"test18",true)}
-            />} 
-            label="test18"
-          /> 
-        </Grid2>
+        </Grid2>        
       </Grid2>
     </ScrollView>
   );

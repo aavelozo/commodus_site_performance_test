@@ -65,6 +65,14 @@ export default function RootLayout() {
           }}
         />
         <Drawer.Screen
+          name="app/use_reducer_blur" // This is the name of the page and must match the url from root
+          options={{
+            //headerShown: false,
+            drawerLabel: 'Use Reducer Blur',
+            title: 'Use Reducer Blur',
+          }}
+        />
+        <Drawer.Screen
           name="+not-found"
         />
       </Drawer>
